@@ -172,6 +172,7 @@ main {
     padding: 10px;
 }
 
+/* Discount bar option displayed  */
 .card5 .discount, .card6 .discount {
     display: none;
 }
