@@ -12,6 +12,10 @@ body {
     font-family: sans-serif;
 }
 
+.logo-image, a, i:hover {
+    cursor: pointer;
+}
+
 /* Header  */
 .header-bar {
     display: flex;
@@ -81,11 +85,21 @@ main {
 
 
 /* Image  */
-.container .card img{
-    width: 100%;
+.container .card .image-container {
+    position: relative;
 }
 
+.container .card img{
+    width: 100%;
+    position: relative;
+}
 
+.container .card .img2 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
 
 /* Products  */
 .card .card-info .product-name {
@@ -143,17 +157,14 @@ main {
 
 
 /* Hover Card settings  */
-/* 
-    .card:hover {
-        cursor: pointer;
-    }
 
-    .card1 .img1:hover {  
-        z-index: 0;
-    } */
+.container .card .img1:hover {
+    z-index: -2;
+}
 
-
-
+.container .card img:hover {
+    cursor: pointer;
+}
 
 /* Footer  */
 
