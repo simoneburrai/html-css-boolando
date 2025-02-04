@@ -62,7 +62,7 @@ body {
 /* Main  */
 
 main {
-    margin-top: 60px;
+    margin: 60px;
 }
 
 .container {
@@ -81,7 +81,7 @@ main {
 
 
 /* Image  */
-.container .card img {
+.container .card img{
     width: 100%;
 }
 
@@ -141,3 +141,50 @@ main {
     padding: 10px;
 }
 
+
+/* Hover Card settings  */
+/* 
+    .card:hover {
+        cursor: pointer;
+    }
+
+    .card1 .img1:hover {  
+        z-index: 0;
+    } */
+
+
+
+
+/* Footer  */
+
+footer {
+    background-color: #1a1a1a;
+    border-bottom: 3px solid white;
+    color: white;
+    padding: 30px 160px 35px;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container h3 {
+    padding-bottom: 15px;
+}
+
+footer .footer-container .booleando .footer-info {
+    display: flex;
+    gap: 10px;
+}
+
+footer .footer-container .link {
+    text-align: left;
+}
+
+footer .footer-container .link ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 25px;
+}
