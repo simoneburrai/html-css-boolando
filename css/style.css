@@ -64,3 +64,71 @@ body {
 main {
     padding: 60px 270px;
 }
+
+.container .card {
+    position: relative;
+}
+
+
+
+/* Image  */
+.container .card img {
+    width: 100%;
+}
+
+
+
+/* Products  */
+.card .card-info .product-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Prices  */
+.card .card-info .price .correct-price {
+    color: #ff0000;
+}
+
+.card .card-info .price .wrong-price {
+    text-decoration: line-through;
+}
+
+
+/* Over Elements  */
+    /* Heart symbol  */
+.card .over-elements .heart {
+    padding: 15px;
+    background-color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card .over-elements .heart:hover {
+    color:red;
+    cursor: pointer;
+}
+
+/* Discount Bar  */
+.card .over-elements .discount-bar {
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 150px;
+}
+
+.card .over-elements .discount-bar .discount {
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.card .over-elements .discount-bar .sostenib {
+    background-color: #008000;
+    padding: 10px;
+}
+
