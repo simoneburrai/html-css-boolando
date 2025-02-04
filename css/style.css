@@ -172,6 +172,12 @@ main {
     padding: 10px;
 }
 
+.card5 .discount, .card6 .discount {
+    display: none;
+}
+.card2 .sostenib, .card3 .sostenib, .card5 .sostenib {
+    display: none;
+}
 
 /* Hover Card settings  */
 
