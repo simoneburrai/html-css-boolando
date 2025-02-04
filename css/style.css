@@ -26,6 +26,7 @@ body {
     top: 0px;
 }
 
+/* Header genre  */
 .header-bar .genre {
     font-weight: bold;
     width: 300px;
@@ -37,11 +38,14 @@ body {
     padding-right: 10px;
 }
 
+/* Header Logo  */
 .header-bar .logo-image {
     max-width: 200px;
     flex-grow: 1;
 }
 
+
+/* Header Account  */
 .header-bar .account {
     width: 300px;
     flex-shrink: 0;
@@ -52,4 +56,11 @@ body {
     justify-content: flex-end;
     list-style-type: none;
     gap: 10px;
+}
+
+
+/* Main  */
+
+main {
+    padding: 60px 270px;
 }
