@@ -17,6 +17,12 @@ body {
 }
 
 /* Header  */
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 .header-bar {
     display: flex;
     background-color: #ff6900 ;
@@ -26,8 +32,6 @@ body {
     align-items: center;
     padding: 20px 270px;
     font-size: 15px;
-    position: sticky;
-    top: 0px;
 }
 
 /* Header genre  */
@@ -142,7 +146,7 @@ main {
     font-size: 15px;
     font-weight: bolder;
     position: absolute;
-    bottom: 150px;
+    bottom: 50px;
 }
 
 .card .over-elements .discount-bar .discount {
